@@ -1,0 +1,118 @@
+CONFIG_TARGET_ar71xx=y
+CONFIG_TARGET_ar71xx_generic=y
+CONFIG_TARGET_ar71xx_generic_TLWR842=y
+CONFIG_ALL=y
+CONFIG_ALL_KMODS=y
+CONFIG_DEVEL=y
+CONFIG_TOOLCHAINOPTS=y
+CONFIG_CCACHE=y
+CONFIG_COLLECT_KERNEL_DEBUG=y
+CONFIG_GLIBC_REVISION="4e42b5b8f8"
+CONFIG_GLIBC_USE_VERSION_2_21=y
+CONFIG_GLIBC_VERSION="2.21"
+CONFIG_GLIBC_VERSION_2_21=y
+CONFIG_IB=y
+CONFIG_IMAGEOPT=y
+# CONFIG_KERNEL_KALLSYMS is not set
+CONFIG_LIBC="glibc"
+CONFIG_LIBC_USE_GLIBC=y
+# CONFIG_LIBC_USE_UCLIBC is not set
+CONFIG_LIBC_VERSION="2.21"
+CONFIG_LUCI_LANG_ru=y
+CONFIG_LUCI_SRCDIET=y
+CONFIG_PACKAGE_6in4=y
+# CONFIG_PACKAGE_asterisk11-chan-sccp-b is not set
+# CONFIG_PACKAGE_asterisk13-chan-sccp-b is not set
+# CONFIG_PACKAGE_asterisk18-chan-sccp-b is not set
+CONFIG_PACKAGE_badblocks=y
+CONFIG_PACKAGE_blkid=y
+CONFIG_PACKAGE_block-mount=y
+# CONFIG_PACKAGE_bluez-examples is not set
+CONFIG_PACKAGE_e2fsprogs=y
+CONFIG_PACKAGE_fdisk=y
+CONFIG_PACKAGE_findfs=y
+CONFIG_PACKAGE_hdparm=y
+CONFIG_PACKAGE_ip=y
+CONFIG_PACKAGE_iperf3=y
+CONFIG_PACKAGE_kmod-crypto-hash=y
+CONFIG_PACKAGE_kmod-fs-ext4=y
+CONFIG_PACKAGE_kmod-iptunnel=y
+CONFIG_PACKAGE_kmod-iptunnel4=y
+CONFIG_PACKAGE_kmod-l2tp=y
+CONFIG_PACKAGE_kmod-ledtrig-netdev=y
+CONFIG_PACKAGE_kmod-lib-crc16=y
+CONFIG_PACKAGE_kmod-lib-lz4=y
+CONFIG_PACKAGE_kmod-lib-lzo=y
+CONFIG_PACKAGE_kmod-pppol2tp=y
+CONFIG_PACKAGE_kmod-scsi-core=y
+CONFIG_PACKAGE_kmod-sit=y
+CONFIG_PACKAGE_kmod-udptunnel4=y
+CONFIG_PACKAGE_kmod-udptunnel6=y
+CONFIG_PACKAGE_kmod-usb-ohci=y
+CONFIG_PACKAGE_kmod-usb-storage=y
+CONFIG_PACKAGE_kmod-veth=y
+CONFIG_PACKAGE_kmod-zram=y
+CONFIG_PACKAGE_libblkid=y
+CONFIG_PACKAGE_libbsd=m
+CONFIG_PACKAGE_libext2fs=y
+CONFIG_PACKAGE_libiwinfo-lua=y
+CONFIG_PACKAGE_liblua=y
+CONFIG_PACKAGE_libpopt=y
+CONFIG_PACKAGE_libpthread=y
+CONFIG_PACKAGE_librt=y
+CONFIG_PACKAGE_libsmartcols=y
+CONFIG_PACKAGE_libubus-lua=y
+CONFIG_PACKAGE_libuci-lua=y
+CONFIG_PACKAGE_libuuid=y
+CONFIG_PACKAGE_lua=y
+CONFIG_PACKAGE_luafilesystem=y
+CONFIG_PACKAGE_luci=y
+CONFIG_PACKAGE_luci-app-firewall=y
+CONFIG_PACKAGE_luci-base=y
+CONFIG_PACKAGE_luci-i18n-base-ru=y
+CONFIG_PACKAGE_luci-i18n-firewall-ru=y
+CONFIG_PACKAGE_luci-lib-ip=y
+CONFIG_PACKAGE_luci-lib-nixio=y
+CONFIG_PACKAGE_luci-mod-admin-full=y
+CONFIG_PACKAGE_luci-proto-ipv6=y
+CONFIG_PACKAGE_luci-proto-ppp=y
+CONFIG_PACKAGE_luci-theme-bootstrap=y
+CONFIG_PACKAGE_luci-theme-openwrt=y
+# CONFIG_PACKAGE_lxc-checkconfig is not set
+# CONFIG_PACKAGE_openvswitch-ipsec is not set
+# CONFIG_PACKAGE_openvswitch-python is not set
+CONFIG_PACKAGE_perf=m
+CONFIG_PACKAGE_ppp-mod-pppol2tp=y
+CONFIG_PACKAGE_resolveip=y
+CONFIG_PACKAGE_rpcd=y
+CONFIG_PACKAGE_rsync=y
+CONFIG_PACKAGE_swap-utils=y
+CONFIG_PACKAGE_tune2fs=y
+CONFIG_PACKAGE_uboot-envtools=m
+CONFIG_PACKAGE_uhttpd=y
+CONFIG_PACKAGE_uhttpd-mod-ubus=y
+# CONFIG_PACKAGE_umurmur-polarssl is not set
+CONFIG_PACKAGE_xl2tpd=y
+CONFIG_PACKAGE_zlib=y
+# CONFIG_PACKAGE_zram-swap is not set
+# CONFIG_PER_FEED_REPO_ADD_COMMENTED is not set
+CONFIG_PROCD_ZRAM_TMPFS=y
+CONFIG_SDK=y
+CONFIG_STRIP_ARGS="--strip-all"
+CONFIG_TARGET_OPTIMIZATION="-Os -pipe -march=24kc -mtune=24kc -mbranch-likely"
+CONFIG_TARGET_OPTIONS=y
+CONFIG_TARGET_SUFFIX="gnu"
+CONFIG_USE_GLIBC=y
+CONFIG_USE_LIBSTDCXX=y
+CONFIG_USE_STRIP=y
+# CONFIG_USE_UCLIBCXX is not set
+CONFIG_VERSIONOPT=y
+CONFIG_VERSION_DIST="OpenWrt"
+CONFIG_VERSION_FILENAMES=y
+CONFIG_VERSION_HWREV=""
+CONFIG_VERSION_MANUFACTURER=""
+CONFIG_VERSION_NICK="Chaos Calmer"
+CONFIG_VERSION_NUMBER="15.05.custom"
+CONFIG_VERSION_PRODUCT=""
+CONFIG_VERSION_REPO="http://dev.null/%n/%v/%S/packages"
+# CONFIG_IB_STANDALONE is not set
