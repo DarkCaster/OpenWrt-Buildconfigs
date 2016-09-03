@@ -1,6 +1,6 @@
 # Configs for OpenWrt-1505-Custom repo
 
-This configs are intended for use with OpenWrt-1505-Custom repo, wnr2200ru+custom branch.
+This configs are intended for use with OpenWrt-1505-Custom repo, "wnr2200ru+custom" branch.
 USE AT YOUR OWN RISK!
 
 ## netgear-wnr2200ru.diffconfig
