@@ -11,3 +11,12 @@ USB-drives with ext4-fs support, virtual ethernet driver + ip utility, iperf3 ut
 pppol2tp support + xl2tpd daemon (extra packages and configuration needed for encryption support).
 LXC support is disabled, but glibc is used to provide compatibility with debian-mips binaries. Other components available as external packages.
 
+## kvm.diffconfig
+
+Config for running openwrt with qemu-kvm 32-bit x86 virtualization technology.
+This config based on netgear-wnr2200ru.diffconfig, with additions to network-fs and connectivity support.
+Included stuff that needed for relatively usable LXC support.
+Using glibc by default to improve compatibility with typical x86-32bit-linux' binaries.
+Using virtual mtd+squashfs layout: you must manually use "dd" to copy image (with start at sector 0) to virtual drive with bigger size used by qemu-kvm as boot drive,
+remaining free space will be automatically formatted as overlay on first boot.
+
