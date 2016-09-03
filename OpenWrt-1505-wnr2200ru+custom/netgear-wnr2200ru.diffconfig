@@ -88,7 +88,6 @@ CONFIG_PACKAGE_libiwinfo-lua=y
 CONFIG_PACKAGE_liblua=y
 CONFIG_PACKAGE_liblxc=y
 CONFIG_PACKAGE_libncurses=y
-CONFIG_PACKAGE_libopenssl=y
 CONFIG_PACKAGE_libpopt=y
 CONFIG_PACKAGE_libpthread=y
 CONFIG_PACKAGE_librt=y
@@ -141,8 +140,6 @@ CONFIG_PACKAGE_lxc-unshare=y
 CONFIG_PACKAGE_lxc-user-nic=y
 CONFIG_PACKAGE_lxc-usernsexec=y
 CONFIG_PACKAGE_lxc-wait=y
-CONFIG_PACKAGE_openssl-util=y
-CONFIG_PACKAGE_openvpn-easy-rsa=y
 # CONFIG_PACKAGE_openvswitch-ipsec is not set
 # CONFIG_PACKAGE_openvswitch-python is not set
 CONFIG_PACKAGE_perf=m
