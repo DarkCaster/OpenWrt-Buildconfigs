@@ -14,7 +14,7 @@ LXC support is disabled, but glibc is used to provide compatibility with debian-
 ## kvm.diffconfig
 
 Config for running openwrt with qemu-kvm 32-bit x86 virtualization technology.
-This config based on netgear-wnr2200ru.diffconfig, with additions to network-fs and connectivity support.
+This config based on netgear-wnr2200ru.diffconfig, with additions for network-fs and connectivity support.
 Included stuff that needed for relatively usable LXC support.
 Using glibc by default to improve compatibility with typical x86-32bit-linux' binaries.
 Using virtual mtd+squashfs layout: you must manually use "dd" to copy image (with start at sector 0) to virtual drive with bigger size used by qemu-kvm as boot drive,
