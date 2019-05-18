@@ -70,6 +70,7 @@ CONFIG_PACKAGE_fdisk=y
 CONFIG_PACKAGE_flock=y
 CONFIG_PACKAGE_getopt=y
 CONFIG_PACKAGE_hdparm=y
+CONFIG_PACKAGE_ip-tiny=y
 CONFIG_PACKAGE_ip6tables-mod-nat=y
 CONFIG_PACKAGE_kmod-9pnet=y
 CONFIG_PACKAGE_kmod-crypto-acompress=y
@@ -112,6 +113,7 @@ CONFIG_PACKAGE_liblucihttp=y
 CONFIG_PACKAGE_liblucihttp-lua=y
 CONFIG_PACKAGE_liblxc=y
 CONFIG_PACKAGE_liblzo=y
+CONFIG_PACKAGE_libmnl=y
 CONFIG_PACKAGE_libncurses=y
 CONFIG_PACKAGE_libopenssl=y
 CONFIG_PACKAGE_libpcre=y
@@ -170,6 +172,9 @@ CONFIG_PACKAGE_lxc-user-nic=y
 CONFIG_PACKAGE_lxc-usernsexec=y
 CONFIG_PACKAGE_lxc-wait=y
 CONFIG_PACKAGE_miniupnpd=y
+CONFIG_PACKAGE_miredo-client=y
+CONFIG_PACKAGE_miredo-common=y
+CONFIG_PACKAGE_nat6-scripts=y
 # CONFIG_PACKAGE_omcproxy is not set
 CONFIG_PACKAGE_openvpn-openssl=y
 # CONFIG_PACKAGE_openvswitch-python is not set
