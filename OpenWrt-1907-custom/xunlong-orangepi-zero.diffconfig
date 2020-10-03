@@ -204,9 +204,4 @@ CONFIG_boost-compile-visibility-hidden=y
 CONFIG_boost-runtime-shared=y
 CONFIG_boost-static-and-shared-libs=y
 CONFIG_boost-variant-release=y
-# CONFIG_LIBCURL_GNUTLS is not set
-# CONFIG_LIBCURL_MBEDTLS is not set
-# CONFIG_LIBCURL_NOSSL is not set
-# CONFIG_LIBCURL_OPENSSL is not set
-# CONFIG_LIBCURL_WOLFSSL is not set
 # CONFIG_OPENVPN_openssl_ENABLE_SMALL is not set
